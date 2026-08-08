@@ -1,0 +1,55 @@
+name: Deploy GitHub Profile Summary Cards...
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* */24 * * *'
+  create:
+
+jobs:
+  build:
+    name: Generate Profile Summary Cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          show-progress: true
+          fetch-depth: 1
+
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        with:
+          ANIMATION: 'draw'
+          AUTO_PUSH: false
+          BRANCH_NAME: 'main'
+          THEME: 'transparent'
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8
+
+      - name: Generate Profile 3D Contrib
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          SETTING_JSON: ./.github/setting.json
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Deploy to GitHub Repository
+        run: |
+          rm -f ./profile-summary-card-output/**/*.md
+          rm -f ./profile-summary-card-output/*.md
+          git config --global user.email ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
+          git config --global user.name ${{ github.actor }}
+          git status
+          git add --all
+          git commit -m '更新个人简介'
+          git pull --rebase --autostash
+          git reset --hard $(git commit-tree HEAD^{tree} -m "更新个人简介")
+          git update-ref -d refs/remotes/origin/main
+          git reflog expire --expire=now --all
+          git gc --prune=now --aggressive
+          git push --force -u origin main
