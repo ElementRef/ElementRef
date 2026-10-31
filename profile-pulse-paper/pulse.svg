@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150"
+     viewBox="0 0 830 150" role="img" aria-labelledby="gp-title gp-desc">
+  <title id="gp-title">ElementRef's pulse — 180 bpm (revived)</title>
+  <desc id="gp-desc">GitHub activity heartbeat for @ElementRef: 68 contributions this week, 1960 in the last year.</desc>
+  <style>.gp-sweep{animation:gp-sweep 3s linear infinite}
+       .gp-heart{animation:gp-thump 0.3s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+       .gp-dot{animation:gp-blink 1.8s ease-in-out infinite}
+       @keyframes gp-sweep{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+       @keyframes gp-thump{0%,100%{transform:scale(1)}15%{transform:scale(1.32)}30%{transform:scale(1)}}
+       @keyframes gp-blink{50%{opacity:.25}}@media (prefers-reduced-motion:reduce){*{animation:none !important}}</style>
+  <defs>
+    
+    <filter id="gp-glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="gp-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="rgba(196,69,47,0.14)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="829" height="149"
+        rx="6" fill="#F6EFE3" stroke="rgba(196,69,47,0.14)"/>
+  <rect x="16" y="38" width="798" height="72" fill="url(#gp-grid)" opacity="0.9"/>
+
+  <text x="26" y="26" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13"
+        font-weight="600" fill="#2A2118">@ElementRef</text>
+
+  <rect x="737.8" y="12" width="66.2" height="19"
+        rx="9.5" fill="none" stroke="#C4452F" opacity="0.85"/>
+  <text x="770.9" y="25" text-anchor="middle"
+        font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10" font-weight="600"
+        fill="#C4452F" letter-spacing="1">REVIVED</text>
+  
+  <path d="M26 74 h17.7 q3 -1.8 6 0 l2 3 l4 -14.4 l4 22.4 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -14.4 l4 22.4 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -12 l4 20 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -27.6 l4 35.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -24 l4 32 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -8.4 l4 16.4 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -13.2 l4 21.2 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -19.2 l4 27.2 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -7.2 l4 15.2 l2 -8 q3 -3.9 6 0 h17.7" fill="none" stroke="#C4452F" stroke-width="1.6" opacity="0.22"/>
+       <path class="gp-sweep" d="M26 74 h17.7 q3 -1.8 6 0 l2 3 l4 -14.4 l4 22.4 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -14.4 l4 22.4 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -12 l4 20 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -27.6 l4 35.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -15.6 l4 23.6 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -24 l4 32 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -8.4 l4 16.4 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -13.2 l4 21.2 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -19.2 l4 27.2 l2 -8 q3 -3.9 6 0 h17.7 h17.7 q3 -1.8 6 0 l2 3 l4 -36 l4 44 l2 -8 q3 -3.9 6 0 h13.8 h13.8 q3 -1.8 6 0 l2 3 l4 -7.2 l4 15.2 l2 -8 q3 -3.9 6 0 h17.7" pathLength="1000" fill="none"
+             stroke="#C4452F" stroke-width="2.2" stroke-linecap="round"
+             stroke-dasharray="140 860" filter="url(#gp-glow)"/>
+  <text x="800" y="54" text-anchor="end"
+              font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="11" font-weight="700"
+              fill="#C4452F" filter="url(#gp-glow)">⚡ REVIVED</text>
+  <text x="26" y="54" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
+            font-size="10" font-weight="700" letter-spacing="1"
+            fill="#C4452F" opacity="0.75">⚜ CENTURION</text>
+  <text class="gp-heart" x="26" y="130" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
+        font-size="16" fill="#C4452F">♥</text>
+  <text x="46" y="130" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
+        font-size="22" font-weight="700" fill="#2A2118">180<tspan
+        font-size="10" font-weight="400" fill="#8A7B67" dx="4">bpm</tspan></text>
+  <text x="150" y="128" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace"
+           font-size="10.5" fill="#8A7B67">⚡ 371d streak  ·  JS+  ·  1960 beats/yr  ·  ★ 6</text>
+  <text x="804" y="128" text-anchor="end"
+        font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="10.5" fill="#C4452F"
+        >⚡ back from the dead</text>
+  
+  
+</svg>
